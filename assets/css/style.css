@@ -6,9 +6,23 @@
  * Made By MaterializeCSS.com
  */
 
+a, button, input {
+    outline: 0 !important;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
+}
+
+nav .material-icons {
+  color: #515151 !important;
+}
+
+@media only screen and (min-width: 993px) {
+  nav a.collapse {
+    display: none;
+  }
 }
 
 p {
